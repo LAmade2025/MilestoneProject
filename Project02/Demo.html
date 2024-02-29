@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="DemoStyle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Demo</title>
+    <style>
+        body {
+            background: 
+                url('wp9368950-your-name-4k-pc-wallpapers.jpg') center center / cover no-repeat,
+                url('flame.gif') center center / cover repeat; 
+            height: 700px;
+            width: 1450px;
+            margin: 0;
+        }
+
+        .wrapper {
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.5); /* Example: semi-transparent white background */
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Example: shadow effect */
+        }
+
+      
+
+    </style>
+</head>
+<body>
+   
+   
+        <div class="todo-app">
+            <h2>To-Do List <img src="Checklist-PNG-Photos.png"> </h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add your text">
+                <select id="priority-select">
+                    <option value="low">Low</option>
+                    <option value="medium">Medium</option>
+                    <option value="high">High</option>
+                </select>
+                <button onclick="addTask()">Add</button>
+            </div>
+            <ul id="list-container">
+                <!-- <li class="checked">Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li>  -->
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
